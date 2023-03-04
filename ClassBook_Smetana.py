@@ -32,6 +32,3 @@ class Book:
             return 'Error! Wrong value for year of publication!'
         except TypeError:
             return 'Error! You must enter only integers for year of publication!'
-
-user_1 = Book('Markys', 'Fodich', 2020)
-user_1.get_book_info(), user_1.get_age_of_book()
